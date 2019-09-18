@@ -4,4 +4,3 @@
 
 화면 캡쳐 ...
 ![BTS](./images/bts.png)
-<img src ="./images/bts.png" alt = "BTS">
