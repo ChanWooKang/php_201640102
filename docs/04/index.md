@@ -1,11 +1,11 @@
 # 수업 2019. 09 .18
 수업내용정리
-
+<img width="800" height="433">
 
 이번 수업시간에서는 깃으로 html 과 markdown을 사용하여 과제를 제출하는방법에대해 배웠습니다.
 
 첫째로 docs 파일수정을하고 <br>
-![docs](./images/docs1.PNG)<img width="800" height="433"></img> <br>
+![docs](./images/docs1.PNG) <br>
 각 주차  경로를 설정 합니다. <br>
 ![link](./images/linking.PNG) <br>
 ![EX](./images/ex1.PNG) <br>
@@ -60,3 +60,4 @@ Switch는 똑같은 값을 찾아 수행한다.
 
 깃허브에서 페이지가 천천히 갱신되는 이유는 프로그램을 돌려서 변환하기 때문에 
 시간이 소요된다.
+</img>
