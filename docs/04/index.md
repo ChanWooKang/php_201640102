@@ -5,7 +5,7 @@
 이번 수업시간에서는 깃으로 html 과 markdown을 사용하여 과제를 제출하는방법에대해 배웠습니다.
 
 첫째로 docs 파일수정을하고 <br>
-![docs](./images/docs1.PNG) <br>
+![docs](./images/docs1.PNG)<img width="800" height="433"></img> <br>
 각 주차  경로를 설정 합니다. <br>
 ![link](./images/linking.PNG) <br>
 ![EX](./images/ex1.PNG) <br>
@@ -52,7 +52,7 @@ Switch는 똑같은 값을 찾아 수행한다.
 
 그리드추가
 
-![gri](./images/gird.PNG) <br>
+![gri](./images/grid.PNG) <br>
 
 레이아웃 꾸미기
 
