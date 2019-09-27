@@ -29,48 +29,30 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="index.html">Main</a>
+        <a class="js-scroll-trigger" href="../index.html">Main</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Report</a>
+        <a class="js-scroll-trigger" href="../#portfolio">Report</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="01/">1 Week</a>
+        <a class="js-scroll-trigger" href="../01/">1 Week</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="02/">2 Week</a>
+        <a class="js-scroll-trigger" href="../02/">2 Week</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="03/">3 Week</a>
+        <a class="js-scroll-trigger" href="../03/">3 Week</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="04/">4 Week</a>
+        <a class="js-scroll-trigger" href="../04/">4 Week</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="05/">5 Week</a>
+        <a class="js-scroll-trigger" href="../05/">5 Week</a>
       </li>
     </ul>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">PHP리포트</h1>
-      <h3 class="mb-5">
-        <em>201640102 강찬우</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">리포트 확인</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
- 
 
-# 수업 2019. 08 .28
-수업내용정리
-
-
-화면 캡쳐 ...
-![BTS](./images/bts.png)
 
 
  <!-- Footer -->
