@@ -1,6 +1,5 @@
 
-  <html>
-  <head>
+ <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -52,11 +51,6 @@
     </ul>
   </nav>
 
-    # 수업 2019. 09 .04
-    수업내용정리
-
-
-
  <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
@@ -78,6 +72,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="../js/stylish-portfolio.min.js"></script>
-  <body>
+  </body>
+
+    # 수업 2019. 09 .04
+    수업내용정리
 
 

@@ -1,4 +1,3 @@
- <html>
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,30 +49,8 @@
       </li>
     </ul>
   </nav>
-   <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <p class="text-muted small mb-0">Copyright &copy; Kookru 2019</p>
-    </div>
-  </footer>
 
-<!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="../js/stylish-portfolio.min.js"></script>
-  <body>
-
-# 수업 2019. 09 .18
+    # 수업 2019. 09 .18
 수업내용정리
 
 이번 수업시간에서는 깃으로 html 과 markdown을 사용하여 과제를 제출하는방법에대해 배웠습니다.
@@ -134,3 +111,28 @@ Switch는 똑같은 값을 찾아 수행한다.
 
 깃허브에서 페이지가 천천히 갱신되는 이유는 프로그램을 돌려서 변환하기 때문에 
 시간이 소요된다.
+
+
+   <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="text-muted small mb-0">Copyright &copy; Kookru 2019</p>
+    </div>
+  </footer>
+
+<!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../js/stylish-portfolio.min.js"></script>
+  </body>
+
