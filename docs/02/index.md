@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+
   <html>
   <head>
   <meta charset="utf-8">
@@ -79,5 +79,5 @@
   <!-- Custom scripts for this template -->
   <script src="../js/stylish-portfolio.min.js"></script>
   <body>
-  </html>
+
 
