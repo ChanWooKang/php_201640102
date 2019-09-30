@@ -1,14 +1,167 @@
 <!DOCTYPE html>
-<html>
-    <head>
+ <html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    </head>
-    <body>
-        <h1>수업 내용 정리 <br> </h1>
+  <title>201640102 PHP리포트</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <h2>PHP</h2>
-        <br>
-        <p>오늘은 PHP 수업에서 다양한걸 배웠다 </p> 
-        <a href="#" alt = "" width ="" height = ""></a>    
-    </body>
+  <!-- Custom Fonts -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="../index.html">Main</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="../#portfolio">Report</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="/">1 Week</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="../02/">2 Week</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="../03/">3 Week</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="../04/">4 Week</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="../05/">5 Week</a>
+      </li>
+    </ul>
+  </nav>
+  <h1>수업 2019. 09. 25</h1>
+  <hr>
+
+  <p> 수업 내용 정리</p>
+  <br>
+  <p>오늘은 PHP에서 다양한 함수와 클래스들을 배웠다.</p>
+  <br>
+  <h3>Include활용</h3>
+  <hr>
+  <p>Include란 다른 파일을 하나에 파일에 불러오는 역활을한다 <br></p>
+  <a><img src ="./images/include1.PNG" width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/includeEx1.PNG" width ="800px" height="520px"></a>
+  <br>
+  <p>Include 코드를 쓴만큼 같은 파일을 똑같이 불러올수도있다.</p>
+  <a><img src="./images/include2.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/includeEx2.PNG"width="800px" height="520px"></a>
+  <br>
+  <p>만약 존재하지 않은 파일을 가져온다고 코딩했을경우 오류가 뜬다.</p>
+  <br>
+  <a><img src="./images/include3.PNG" width="800px" height="520px"></a>
+  <br>
+  <p>이와 같은 경우에선 Require 함수를 사용한다 (만약 없을경우 실행이 중단)</p>
+  <br>
+  <a><img src="./images/require1.PNG" width="800px" height="520px"></a>
+  <br>
+  <p>Require도 마찬가지로 중복으로 사용이 가능하다.</p>
+  <br>
+  <a><img src="./images/require3.PNG" width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/requireEx1.PNG" width="800px" height="520px"></a>
+  <br>
+  <p>Function</p>
+  <br>
+  <a><img src="./images/function1.PNG" width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/functionEx1.PNG" width="800px" height="520px"></a>
+  <br>
+  <p>Array 배열은 변수로 받거나 []으로도 만들수 있다</p>
+  <a><img src="./images/array1.PNG" width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/arrayEx1.PNG" width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/array2.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/arrayEx2.PNG"width="800px" height="520px"></a>
+  <br>
+  <p>배열은 include로도 받을수 있다</p>
+  <br>
+  <a><img src="./images/includeact1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/includeactEx1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/includeact2.PNG"width="800px" height="520px"></a>
+  <br>
+  <p>function_exsist(함수명)를 사용하면 괄호안에 있는 값을 이름으로 하는 함수가 있는지 확인한다
+      <br> 있으면 true 없으면 false로 받는다 그러므로 if문으로 사용가능하다</p>
+  <br>
+  <a><img src="./images/funcexist1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/funcexistEx1.PNG"width="800px" height="520px"></a>
+  <h3>Class</h3>
+  <hr>
+  <p>include Class로 받기</p>
+  <a><img src="./images/class1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/classex1.PNG"width="800px" height="520px"></a>
+  <br>
+  <p> 함수는 선언후 바로 호출인 2단계 구조인 반면 클래스는 선언 생성 호출 3단계 구조이다 이때 생성되는동작을 인스턴스화라고 한다.</p>
+  <br>
+  <a><img src="./images/class2.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/classEx2.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/class3.PNG"width="800px" height="520px"></a>
+  <br>  
+  <a><img src="./images/classEx3.PNG"width="800px" height="520px"></a>
+  <br>
+  <p>const(상수)  상수란 변하지 않은 수이며 값을 지정해둔다.</p>
+  <a><img src="./images/const1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/constEx1.PNG"width="800px" height="520px"></a>
+  <br>
+  <p>this 와 self에 공통점은 둘다 클래스자체를 말한느것이고 차이점은 클래스가 생성이 되었는지 안되었는지(인스턴스화) 차이점이다</p>
+  <br>
+  <a><img src="./images/this1.PNG"width="800px" height="520px"></a>
+  <br>
+  <a><img src="./images/thisEx1.PNG"width="800px" height="520px"></a>
+  <br>
+  
+ <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="text-muted small mb-0">Copyright &copy; Kookru 2019</p>
+    </div>
+  </footer>
+
+<!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../js/stylish-portfolio.min.js"></script>
+  </body>
 </html>
