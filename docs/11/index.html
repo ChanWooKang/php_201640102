@@ -66,102 +66,49 @@
           <a class="js-scroll-trigger" href="../09/">9 Week</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="../10/">10 Week</a>
-          </li>
+          <a class="js-scroll-trigger" href="../10/">10 Week</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="../11/">11 Week</a>
+        </li>
       </ul>
     </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">PHP리포트</h1>
-      <h3 class="mb-5">
-        <em>201640102 강찬우</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">리포트 확인</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
 
   
 
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h2 class="mb-5">REPORT</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-3">
-          <a class="portfolio-item" href="01/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>1 Week</h2>
-                <p class="mb-0">2019.08.28</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3">
-          <a class="portfolio-item" href="02">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>2 Week</h2>
-                <p class="mb-0">2019.09.04</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3">
-          <a class="portfolio-item" href="03/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>3 Week</h2>
-                <p class="mb-0">2019.09.11</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3">
-          <a class="portfolio-item" href="04/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>4 Week</h2>
-                <p class="mb-0">2019.09.18</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      <div class="col-lg-3">
-        <a class="portfolio-item" href="05/">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>5 Week</h2>
-              <p class="mb-0">2019.09.25</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-lg-3">
-        <a class="portfolio-item" href="05/">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>6 Week</h2>
-              <p class="mb-0">2019.10.02</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-        </a>
-      </div>
-    </div>
-  
-  </section>
+  <h1>수업 2019. 11. 06</h1>
+  <hr>
 
+  <p>수업 내용 정리</p>
+  <br>
+  <p>오늘은 데이터를 수정 및 삭제 그리고 페이지 리스트 정리하는걸 했습니다</p>
+  <a><img src="images/edit1.JPG" alt="" width="800px" height="520px"></a><br>
+  <a><img src="images/editEx1.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>데이터 수정 함수 생성 edit 함수에 매개변수 2개를 넣어 테이블 명과 아이디값을 받아와서 검색후 수정 폼 생성</p><br>
+  <a><img src="images/edit2.JPG" alt="" width="800px" height="520px"></a><br>
+  <a><img src="images/editEx2.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>만든 edit 함수에 쿼리문 삽입 SQL 상에서 처리되는지 확인</p><br>
+  <p>프로퍼티 값을 상수가 아닌 변수로 받아서 능동적으로 변환가능</p><br>
+  <a><img src="images/delete1.JPG" alt="" width="800px" height="520px"></a><br>
+  <a><img src="images/deleteEx1.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>데이터 삭제 메소드 생성 및 a태그 생성</p><br>
+  <a><img src="images/delete2.JPG" alt="" width="800px" height="520px"></a><br>
+  <a><img src="images/deleteEx2.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>데이터 삭제 쿼리문 삽입</p><br>
+  <a><img src="images/page1.JPG" alt="" width="800px" height="520px"></a><br>
+  <a><img src="images/pageEx1.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>페이지 버튼 삽입 및 페이지 리스트 설정</p><br>
+  <p>쿼리스트링으로 경로 지정할경우 ?이후 값까지 나오므로 uri 파일에서 ?로 나눈후 필요한 uri[0]값만 uri에 저장</p><br>
+  <p>$_GET 을 사용하여 값이 들어가있는지 확인후 들어간 값에 대한 쿼리 실행한다</p><br>
+  <a><img src="images/HtmlEx1.JPG" alt="" width="800px" height="520px"></a><br>
+  <p>Html 와 CSS 를 손봐서 보기 좋게 코딩하였고 왼쪽 레이아웃에 메뉴를 생성했다</p><br>
+  <p>다소 빠른 감이 있지만 만드는게 재밌습니다 아이디값이 삭제를한후 다시 생성할때 초기화가 되지않는것을 <br>
+    초기화하려면 ALTER TABLE members AUTO_increment = 0; 을 사용하면 가능은하지만 건드리는게 좋지않다.
+  </p>
+  <hr>
+  
+  
  
 
   <!-- Footer -->
